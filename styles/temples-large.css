@@ -1,0 +1,25 @@
+/* temples-large.css */
+
+/* Header styles */
+header {
+    padding: 10px 40px;
+}
+
+.nav-menu {
+    display: block;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+/* Main content styles */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Footer styles */
+footer {
+    padding: 10px 40px;
+}
