@@ -1,4 +1,25 @@
 /* Basic styling */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=opensans&display`=swap');
+
+:root{
+    --primary-color: white;
+    --secondary-color: #4CAF50;
+    --accent1-color: #4CAF50;
+    --accent2-color: white;
+
+    --heading-font: 'Roboto', serif;
+    --paragraph-font: 'open sans' serif;
+
+    --nav-background-color: white;
+    --nav-link-color: #E9EDC9;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: white;
+}
+
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
