@@ -1,22 +1,5 @@
 /* Basic styling */
 
-:root{
-    --primary-color: white;
-    --secondary-color: #4CAF50;
-    --accent1-color: #4CAF50;
-    --accent2-color: white;
-
-    --heading-font: 'Roboto', serif;
-    --paragraph-font: 'open sans' serif;
-
-    --nav-background-color: white;
-    --nav-link-color: #E9EDC9;
-    --nav-hover-link-color: white;
-    --nav-hover-background-color: white;
-}
-
-
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -47,5 +30,19 @@ header {
     .weather::after {
         content: "⛅"; /* Weather icon emoji for wider view */
         margin-left: 0.5rem;
+    }
+    .weather:root{
+        --primary-color: white;
+        --secondary-color: #4CAF50;
+        --accent1-color: #4CAF50;
+        --accent2-color: white;
+    
+        --heading-font: 'Roboto', serif;
+        --paragraph-font: 'open sans' serif;
+    
+        --nav-background-color: white;
+        --nav-link-color: #E9EDC9;
+        --nav-hover-link-color: white;
+        --nav-hover-background-color: white;
     }
 }
