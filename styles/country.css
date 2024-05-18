@@ -24,7 +24,7 @@ header {
 /* Media query for wider view */
 @media (min-width: 768px) {
     .content {
-        max-width: 800px;
+        max-width: 800px; 
         margin: 0 auto;
     }
     .weather::after {
